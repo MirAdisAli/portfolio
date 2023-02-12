@@ -76,6 +76,7 @@ body{
 }
 
 
+
 /*      Services  */
 #services .card{
     transition: all 0.3s;
@@ -91,3 +92,79 @@ body{
     background: #e3cdff;
 }
 
+
+/*     Projects  */
+
+#projects .nav-link{
+    font-size: 0.9375rem;
+    font-weight: 500;
+    margin-right: 0.25rem;
+    color: black;
+    text-transform: uppercase;
+}
+
+#projects .nav-link.active{
+    color: #6b07ee;
+    background-color: transparent;
+}
+
+#projects .projects-img{
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+    position: relative;
+
+}
+
+#projects .projects-img:hover {
+    transform: scale(1.15);
+    color: #e3cdff;
+
+}
+
+
+/*    Footer    */
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 3.5rem 0;
+  }
+  .footer-title {
+    font-size: 2rem;
+    margin-bottom: var(--mb-4);
+  }
+  .footer-social {
+    margin-bottom: var(--mb-4);
+  }
+  .footer-icon {
+    font-size: 1rem;
+    color: #fff;
+    margin: 0 var(--mb-2);
+  }
+
+.background{
+    margin-bottom: 100px;
+}
+  
+.about_wrapper{
+    margin-bottom: 100px;
+    text-align: justify;
+}
+
+.services_wrapper{
+    margin-bottom: 100px;
+    text-align: justify;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+
+
+.projects_wrapper{
+    margin-bottom: 100px;
+    text-align: justify;
+}
