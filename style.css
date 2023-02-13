@@ -168,3 +168,77 @@ body{
     margin-bottom: 100px;
     text-align: justify;
 }
+
+/*        Skills   */
+
+
+.sskills{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+}
+
+.skill-box{
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: #fff;
+}
+
+
+
+.skill-icon{
+    width: 50px;
+}
+
+.skills_wrapper{
+    text-align: justify;
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media (max-width: 575px) {
+  .sskills {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .sskills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .sskills {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .sskills {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
